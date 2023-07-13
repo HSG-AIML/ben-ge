@@ -51,14 +51,14 @@ Once unpacked the entire **ben-ge** dataset (including BigEarthNet Sentinel-1/2 
 We provide different types of splits for **ben-ge**. We provide different subsets of the full dataset for applications that do not require the full size of the dataset. Each subset contains a certain percentage of the full dataset:
 
 
-| Identifier    |   Percentage |  Sample Size | Index File Link|
-|---------------|:------------:|:------------:|:------------:|
-| ben-ge-0.2    |      20%     |   118k       |  tbd
-| ben-ge-0.4    |      40%     |   236k       |  tbd
-| ben-ge-0.6    |      60%     |   354k       |  tbd
-| ben-ge-0.8    |      80%     |   472k       |  tbd
+| Identifier    |   Percentage |  Sample Size |
+|---------------|:------------:|:------------:|
+| ben-ge-0.2    |      20%     |   118k       |
+| ben-ge-0.4    |      40%     |   236k       |
+| ben-ge-0.6    |      60%     |   354k       |
+| ben-ge-0.8    |      80%     |   472k       |
 
-The splits are defined through **index files** that contain the `patch_id` of each patch of the corresponding subset. Please note that subsets were drawn randomly, but care was taken to build them in such a way that smaller subsets are entirely contained in all larger subsets.  **Index files will be made available soon**
+The splits are defined through **index files** that contain the `patch_id` of each patch of the corresponding subset. Please note that subsets were drawn randomly, but care was taken to build them in such a way that smaller subsets are entirely contained in all larger subsets. Index files are available in the `data/splits/` directory of this repository.
 
 Finally, each subset comes with a fixed **train/validation/test** split (80/10/10). Corresponding index files can be downloaded through the links provided in the table above (in the case of **ben-ge-8k**, corresponding index files are provided in the `splits/` directory of the download.
 
