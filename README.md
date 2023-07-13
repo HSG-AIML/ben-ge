@@ -17,7 +17,7 @@ global reanalysis;
 
 More details on the individual data modalities are provided below in the corresponding section and in our **ben-ge** paper:
 
-    M. Mommert, N. Kesseli, J. Hanna, L. Scheibenreif, D. Borth, B. Demir, "ben-ge: Extending BigEarthNet with Geographical and Environmental Data", IEEE International Geoscience and Remote Sensing Symposium, Pasadena, USA, 2023. 
+    M. Mommert, N. Kesseli, J. Hanna, L. Scheibenreif, D. Borth, B. Demir, "ben-ge: Extending BigEarthNet with Geographical and Environmental Data", IEEE International Geoscience and Remote Sensing Symposium, Pasadena, USA, 2023 ([arxiv](https://arxiv.org/abs/2307.01741)). 
 
 
 # Motivation
